@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#0077bb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Contorno del Hexágono (Cubo) -->
+  <path d="M32 2 L58 17 L58 47 L32 62 L6 47 L6 17 Z" />
+  <!-- Líneas internas para dar efecto 3D -->
+  <path d="M32 62 L32 32 L58 17" />
+  <path d="M32 32 L6 17" />
+</svg>
