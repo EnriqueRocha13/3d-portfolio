@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Canvas } from '@react-three/fiber';
-// Asegúrate de que este archivo exista y contenga la lógica 3D de tu fondo
 import BackgroundScene from './BackgroundScene'; 
 
 // Objeto de traducciones (Versión OPTIMIZADA - ENFOQUE WEB DEV)
