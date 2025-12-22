@@ -9,7 +9,9 @@
 
 ## 🌐 Live Demo
 
-Visit the portfolio:   [https://EnriqueRocha13.github.io/3d-portfolio](https://EnriqueRocha13.github.io/3d-portfolio)
+🔗 **Main Site:** [https://www.henrydeveloper.digital/](https://www.henrydeveloper.digital/)
+
+🔗 **GitHub Pages:** [https://EnriqueRocha13.github.io/3d-portfolio](https://EnriqueRocha13.github.io/3d-portfolio)
 
 ## ✨ Features
 
@@ -28,7 +30,8 @@ Visit the portfolio:   [https://EnriqueRocha13.github.io/3d-portfolio](https://E
 - **React Three Drei** - Useful helpers for R3F
 - **Vite** - Build tool and dev server
 - **ESLint** - Code linting
-- **GitHub Pages** - Deployment
+- **Vercel** - Primary deployment
+- **GitHub Pages** - Alternative deployment
 
 ## 📦 Installation
 
@@ -85,7 +88,7 @@ npm run deploy
 ├── index.html          # Main HTML
 ├── package.json        # Dependencies and scripts
 ├── tsconfig.json       # TypeScript configuration
-└── vite.config. ts      # Vite configuration
+└── vite.config.ts      # Vite configuration
 ```
 
 ## 🎯 Main Components
@@ -98,7 +101,13 @@ Interactive panel that combines content with 3D animated backgrounds.
 
 ## 🚀 Deployment
 
-The project is configured to automatically deploy to GitHub Pages:
+This project is deployed on multiple platforms:
+
+### Vercel (Primary)
+The main production site is hosted on Vercel at [henrydeveloper.digital](https://www.henrydeveloper.digital/)
+
+### GitHub Pages (Alternative)
+You can also deploy to GitHub Pages using: 
 
 ```bash
 npm run deploy
@@ -114,6 +123,7 @@ This project is open source and available for personal and educational use.
 
 **Enrique Rocha**
 - GitHub: [@EnriqueRocha13](https://github.com/EnriqueRocha13)
+- Portfolio: [henrydeveloper.digital](https://www.henrydeveloper.digital/)
 
 ---
 
