@@ -1,11 +1,11 @@
 # 🎨 3D Portfolio
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC? style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three. js&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-> Check out my experience with 3D animations - An interactive portfolio with stunning 3D animations.  
+> An interactive 3D portfolio with stunning animations featuring a crystal cube interface and automatic language detection.
 
 ## 🌐 Live Demo
 
@@ -15,11 +15,14 @@
 
 ## ✨ Features
 
-- 🎭 **Interactive 3D animations** using Three.js and React Three Fiber
-- ⚡ **Optimized performance** with Vite
-- 🎨 **Modern and responsive design**
+- 🎭 **Interactive 3D Crystal Cube** - Clickable glass-effect cube with hover animations
+- ⚡ **Optimized Performance** with Vite and React Three Fiber
+- 🎨 **Modern Glassmorphism Design** with blur effects and transparency
+- 🌍 **Automatic Language Detection** - Detects browser language (English/Spanish)
 - 🔧 **Built with TypeScript** for enhanced robustness and maintainability
-- 🌊 **Animated background scenes** for a unique visual experience
+- 🌊 **Animated 3D Background** for an immersive visual experience
+- 📱 **Fully Responsive** - Works on desktop, tablet, and mobile devices
+- 🎯 **Resume Panel** - Complete professional portfolio with show/hide functionality
 
 ## 🛠️ Tech Stack
 
@@ -80,9 +83,9 @@ npm run deploy
 ├── src/
 │   ├── assets/         # Resources (images, 3D models, etc.)
 │   ├── App.tsx         # Main component
-│   ├── BackgroundScene.tsx          # 3D background scene
-│   ├── PanelWithAnimatedBackground. tsx  # Panel with animations
-│   ├── main. tsx        # Entry point
+│   ├── BackgroundScene.tsx              # 3D background scene
+│   ├── PanelWithAnimatedBackground.tsx  # Resume panel with 3D cube
+│   ├── main.tsx        # Entry point
 │   ├── App.css         # App styles
 │   └── index.css       # Global styles
 ├── index.html          # Main HTML
@@ -93,15 +96,53 @@ npm run deploy
 
 ## 🎯 Main Components
 
-### BackgroundScene
-Component that manages the 3D background scene with animations and visual effects. 
+### ShowButtonCube
+A 3D crystal cube component with: 
+- **Glass effect** using `meshPhysicalMaterial` with transmission
+- **Hover animations** - Changes color randomly and scales up
+- **Rotation animation** - Continuous spinning on X and Y axes
+- **Floating effect** - Smooth up and down movement
+- **Click interaction** - Opens the resume panel
 
 ### PanelWithAnimatedBackground
-Interactive panel that combines content with 3D animated backgrounds.
+Main portfolio component featuring:
+- **Automatic language detection** based on browser settings
+- **Glassmorphism panel** with blur effects and semi-transparency
+- **Complete resume** with skills, projects, experience, and education
+- **Bilingual support** - English and Spanish translations
+- **Smooth animations** - Panel show/hide with fade effects
+
+### BackgroundScene
+Animated 3D background providing:
+- **Dynamic visual effects** to enhance the portfolio presentation
+- **Performance optimized** animations
+
+## 🌍 Language Support
+
+The portfolio automatically detects the user's browser language: 
+- **Spanish (ES)** - For browsers set to Spanish
+- **English (EN)** - Default for all other languages
+
+No manual language switcher needed - it adapts automatically!
+
+## 🎨 Design Features
+
+- **Crystal Cube Button**
+  - Transmission:  1.0 (fully transparent)
+  - Thickness: 1.5
+  - Roughness: 0.05 (very smooth)
+  - IOR: 1.5 (glass-like refraction)
+  - Dynamic emissive color on hover
+
+- **Resume Panel**
+  - Semi-transparent white background (37% opacity)
+  - 8px backdrop blur for glassmorphism effect
+  - Custom styled scrollbar
+  - Responsive width (680px max, 96vw on mobile)
 
 ## 🚀 Deployment
 
-This project is deployed on multiple platforms:
+This project is deployed on multiple platforms: 
 
 ### Vercel (Primary)
 The main production site is hosted on Vercel at [henrydeveloper.digital](https://www.henrydeveloper.digital/)
@@ -115,15 +156,45 @@ npm run deploy
 
 This command will build the project and deploy it to the `gh-pages` branch.
 
+## 💡 Usage
+
+1. **On Load**: The page displays the resume panel by default
+2. **Close Panel**: Click the "Close ×" button in the top-right corner
+3. **3D Cube Appears**: After closing, the animated crystal cube is revealed
+4. **Hover Effect**: Move mouse over cube to see color changes and scaling
+5. **Open Resume**: Click the cube to display the resume panel again
+6. **Language**:  Automatically shown in your browser's language (EN/ES)
+
+## 🎓 Skills Showcased
+
+This portfolio demonstrates proficiency in:
+- Modern React development with hooks
+- 3D graphics programming with Three.js
+- TypeScript type safety
+- Responsive design
+- UI/UX design principles
+- Performance optimization
+- Internationalization (i18n)
+- State management
+- Component architecture
+
 ## 📝 License
 
 This project is open source and available for personal and educational use.
 
 ## 👨‍💻 Author
 
-**Enrique Rocha**
+**Enrique Domínguez**
 - GitHub: [@EnriqueRocha13](https://github.com/EnriqueRocha13)
 - Portfolio: [henrydeveloper.digital](https://www.henrydeveloper.digital/)
+- LinkedIn: [enrique-domínguez13](https://www.linkedin.com/in/enrique-domínguez13)
+- Email:  Enriquedominguez1375@gmail.com
+
+## 🙏 Acknowledgments
+
+- **Three.js** - For the amazing 3D graphics library
+- **React Three Fiber** - For making Three.js work seamlessly with React
+- **Vite** - For the lightning-fast development experience
 
 ---
 
