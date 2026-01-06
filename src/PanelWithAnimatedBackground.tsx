@@ -118,6 +118,7 @@ export default function PanelWithAnimatedBackground() {
             <h3 style={{ margin: '12px 0 4px', fontWeight: 600, borderBottom: '2px solid #eee' }}>Professional Profile</h3> {/* Perfil profesional */}
             <p>Fullstack Developer with a deep-rooted passion for technology, having <strong>learned to program independently long before starting formal academic studies</strong>. I am focused on delivering high-quality solutions, applying advanced concepts learned outside the classroom. Experienced in creating robust web applications with JavaScript, Node.js, and React, with a strong focus on QA Testing to ensure system stability and modular architecture.</p>
             
+<<<<<<< HEAD
             <h3 style={{ marginTop: 18, marginBottom: 6, borderBottom: '2px solid #eee' }}>🛠️ Technical Skills</h3> {/* Habilidades técnicas */}
             <ul style={{ lineHeight: 1.65, listStyleType: 'disc', paddingLeft: '20px' }}>
               <li><strong>Programming Languages:</strong> JavaScript (Intermediate), TypeScript (Intermediate), Python (Intermediate), HTML (Advanced), CSS (Advanced), Bash (Basic)</li>
@@ -147,6 +148,51 @@ export default function PanelWithAnimatedBackground() {
               </li>
             </ol>
 
+=======
+            {/* Nuevo Bloque: Portafolio QA */}
+            <h3 style={{ marginTop: 18, marginBottom: 6, borderBottom: '2px solid #eee' }}>🔍 Quality Assurance Portfolio</h3>
+            <p style={{ margin: '8px 0' }}>
+              Detailed documentation of my testing methodologies, bug reporting, and quality control evidence: <br />
+              <strong><a href="https://drive.google.com/drive/folders/1JLmq_g5fTqJWEihAPDWTcmsImQN1nKMx?usp=drive_link" target="_blank" rel="noopener noreferrer">View Full QA Portfolio (Google Drive)</a></strong>
+            </p>
+
+            {/* Nuevo Bloque: Publicaciones */}
+            <h3 style={{ marginTop: 18, marginBottom: 6, borderBottom: '2px solid #eee' }}>📚 Publications</h3>
+            <p style={{ margin: '8px 0' }}>
+              Author of <strong>"Unexpected Trip"</strong>, available on Amazon. This project reflects my dedication to creative storytelling and professional commitment: <br />
+              <strong><a href="https://a.co/d/afvDdUO" target="_blank" rel="noopener noreferrer">Check it out on Amazon</a></strong>
+            </p>
+
+            <h3 style={{ marginTop: 18, marginBottom: 6, borderBottom: '2px solid #eee' }}>🛠️ Technical Skills</h3> {/* Habilidades técnicas */}
+            <ul style={{ lineHeight: 1.65, listStyleType: 'disc', paddingLeft: '20px' }}>
+              <li><strong>Programming Languages:</strong> JavaScript (Intermediate), TypeScript (Intermediate), Python (Intermediate), HTML (Advanced), CSS (Advanced), Bash (Basic)</li>
+              <li><strong>Frameworks & Web: </strong> React (Intermediate), Node.js (Intermediate), Flutter (Basic), Full-Stack Development, Git/GitHub, Docker (Basic)</li>
+              <li><strong>Databases and Systems:</strong> SQL (Intermediate), Linux Operating Systems (Advanced - 10+ years), Command Line Tools (<strong>Cygwin</strong>)</li> {/* Agregado Cygwin */}
+              <li><strong>Testing & QA:</strong> Bug Reporting (Jira: Advanced), API Testing (Postman), Test Case Design, Requirements Analysis, Agile (Scrum)</li>
+              <li><strong>Languages:</strong> English (Advanced/Fluent), Portuguese (Intermediate)</li>
+              <li><strong>Soft Skills:</strong> Critical Thinking, Problem Solving, Technical Communication</li>
+            </ul>
+            
+            <h3 style={{ marginTop: 18, marginBottom: 4, borderBottom: '2px solid #eee' }}>💻 Web and QA Projects (Portfolio)</h3> {/* Proyectos */}
+            <ol style={{ paddingLeft: '20px' }}>
+              <li style={{ marginBottom: '14px' }}>
+                <strong><a href="https://enriquerocha13.github.io/CRUD/" target="_blank">CRUD (Student Promotions System)</a></strong>
+                <p style={{ margin: '4px 0' }}>Description: CRUD web system for managing student records with validation and an intuitive interface.</p>
+                <p style={{ margin: '4px 0' }}><strong>Stack:</strong> JavaScript, HTML, CSS, GitHub Pages.</p>
+              </li>
+              <li style={{ marginBottom: '14px' }}>
+                <strong><a href="https://enriquerocha13.github.io/SkillVerse/" target="_blank">SkillVerse (IT Aspirants Platform)</a></strong>
+                <p style={{ margin: '4px 0' }}>Role: Front-End design and development, functional and usability testing.</p>
+                <p style={{ margin: '4px 0' }}><strong>Stack:</strong> HTML, CSS, JavaScript, Git/GitHub.</p>
+              </li>
+              <li style={{ marginBottom: '14px' }}>
+                <strong><a href="https://www.facebook.com/share/19xjoP8A1k/" target="_blank">E-commerce Backend (Health=Happiness();)</a></strong>
+                <p style={{ margin: '4px 0' }}>Role: Payment gateway development, regression and smoke testing.</p>
+                <p style={{ margin: '4px 0' }}><strong>Stack: </strong> Node.js, SQL, QA, UX, Git.</p>
+              </li>
+            </ol>
+
+>>>>>>> 45c4ade (Update: Added QA Portfolio and Unexpected Trip book link)
             <h3 style={{ marginTop: 18, marginBottom: 4, borderBottom: '2px solid #eee' }}>💼 Professional Experience</h3> {/* Experiencia profesional */}
             <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
               <li style={{ marginBottom: '16px' }}> {/* Nueva entrada de Kwork */}
@@ -201,4 +247,8 @@ export default function PanelWithAnimatedBackground() {
       )}
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 45c4ade (Update: Added QA Portfolio and Unexpected Trip book link)
