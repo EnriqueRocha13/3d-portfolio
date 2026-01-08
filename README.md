@@ -9,8 +9,6 @@
 
 ## 🌐 Live Demo
 
-🔗 **Main Site:** [https://www.henrydeveloper.digital/](https://www.henrydeveloper.digital/)
-
 🔗 **GitHub Pages:** [https://EnriqueRocha13.github.io/3d-portfolio](https://EnriqueRocha13.github.io/3d-portfolio)
 
 ## ✨ Features
